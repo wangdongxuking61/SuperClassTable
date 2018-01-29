@@ -10,4 +10,4 @@
 - 课程表中按下"设置"Button，会显示activity_set.xml界面
 
 ### 致谢
-该项目基于https://github.com/mmc-maodun/Multi-function-curriculum-Based-on-Android，非常感谢前人的工作。
+非常感谢前人的工作：该项目基于https://github.com/mmc-maodun/Multi-function-curriculum-Based-on-Android。
