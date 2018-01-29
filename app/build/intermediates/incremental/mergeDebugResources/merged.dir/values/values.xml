@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="baudrate">
+        <item>9600</item>
+        <item>19200</item>
+        <item>57600</item>
+        <item>115200</item>
+    </string-array>
+    <string-array name="data_bits">        
+		<item>7</item>        
+		<item>8</item>        
+	</string-array>
+    <string-array name="edit_options1">
+        <item>添加课程信息</item>
+    </string-array>
+    <string-array name="edit_options2">
+        <item>修改课程信息</item>
+        <item>删除课程信息</item>
+    </string-array>
+    <string-array name="flow_control">        
+		<item>None</item>        
+		<item>CTS/RTS</item>
+	</string-array>
+    <string-array name="lock_membank">
+        <item>销毁密码</item>
+        <item>访问密码</item>
+        <item>EPC区</item>
+        <item>TID区</item>
+        <item>USER区</item>
+    </string-array>
+    <string-array name="lock_type">
+        <item>开放</item>
+        <item>永久开放</item>
+        <item>锁定</item>
+        <item>永久锁定</item>
+    </string-array>
+    <string-array name="membanks">
+        <item>RESEVER</item>
+        <item>EPC</item>
+        <item>TID</item>
+        <item>USER</item>
+    </string-array>
+    <string-array name="parity">        
+		<item>None</item>        
+		<item>Odd</item>
+		<item>Even</item>
+		<item>Mark</item>
+		<item>Space</item>
+	</string-array>
+    <string-array name="set_remind">
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>20分钟</item>
+        <item>30分钟</item>
+        <item>40分钟</item>
+        <item>50分钟</item>
+        <item>60分钟</item>
+    </string-array>
+    <string-array name="stop_bits">        
+		<item>1</item>        
+		<item>2</item>        
+	</string-array>
+    <string-array name="uhf_option">
+        <item>连接</item>
+        <item>断开</item>
+        <item>识别标签</item>
+        <item>读取数据</item>
+        <item>写入数据</item>
+        <item>锁定标签</item>
+        <item>销毁标签</item>
+        <item>退出</item>
+    </string-array>
+    <string-array name="work_area">
+        <item>中国1</item>
+        <item>中国2</item>
+        <item>美国</item>
+        <item>欧洲</item>
+        <item>韩国</item>
+    </string-array>
+    <color name="black">#000000</color>
+    <color name="color_count">#a0a0a0</color>
+    <color name="color_epc">#0cc0c0</color>
+    <color name="color_len">#0cf0c0</color>
+    <color name="gray">#a0a0a0</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="about_app">软件相关</string>
+    <string name="access_password">访问密码：</string>
+    <string name="action_settings">Settings</string>
+    <string name="addr">地址</string>
+    <string name="app_name">超级课表</string>
+    <string name="audio_option">音频接口操作</string>
+    <string name="back">返回</string>
+    <string name="baudrate">波特率：</string>
+    <string name="bluetooth_option">Bluetooth option</string>
+    <string name="cancle">取消</string>
+    <string name="clear_data">清空数据</string>
+    <string name="com_id">COM口：</string>
+    <string name="connect_device">连接设备</string>
+    <string name="connect_info">公司联系方式</string>
+    <string name="connected">已连接</string>
+    <string name="connected_flag">通信状态：</string>
+    <string name="count">次数</string>
+    <string name="course_address">教室地点：</string>
+    <string name="course_amount">上课节数：</string>
+    <string name="course_name">课程名称：</string>
+    <string name="course_teacher">老师姓名：</string>
+    <string name="course_time">上课时间：</string>
+    <string name="course_week">上课周数：</string>
+    <string name="data_bit">数据位：</string>
+    <string name="disconnect">未连接</string>
+    <string name="edit_title">课程信息</string>
+    <string name="epc">EPC</string>
+    <string name="exit">退出</string>
+    <string name="finish">完成</string>
+    <string name="heading">课表信息</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="help">帮助</string>
+    <string name="help_info">\n
+                    服务热线：0755-86597322\n\n
+                    全国统一技术支持热线：0755-86597322\n\n
+                    全球统一服务热线：400-6885962\n\n
+                    服务工程师邮箱：support@jiuray.com\n\n
+                    公司网址：http://www.jiuray.com\n</string>
+    <string name="input_course_address">请输入教室地点</string>
+    <string name="input_course_jieshu">总节数不超过4</string>
+    <string name="input_course_name">请输入课程名称</string>
+    <string name="input_course_teacher">请输入老师姓名</string>
+    <string name="input_course_week">总周数或单双周</string>
+    <string name="into_reader">进入读写器操作</string>
+    <string name="inventory">读标签</string>
+    <string name="inventory_tag">识别标签</string>
+    <string name="jieshulimit">1 2 3 4</string>
+    <string name="kill">销毁</string>
+    <string name="kill_password">销毁密码：</string>
+    <string name="len">长度</string>
+    <string name="lock">锁定</string>
+    <string name="lock_kill">锁定/销毁</string>
+    <string name="lock_membank">锁定区域：</string>
+    <string name="lock_type">锁定类型：</string>
+    <string name="menbank">存储区</string>
+    <string name="menu_settings">设置</string>
+    <string name="message_set">消息设置</string>
+    <string name="output_power">输出功率：</string>
+    <string name="para_setting">参数设置</string>
+    <string name="parity">奇偶校验：</string>
+    <string name="quiet">开启上课自动静音</string>
+    <string name="rbInventoryLoop">循环读标签</string>
+    <string name="rbInventorySingle">单标签</string>
+    <string name="readData">读取数据</string>
+    <string name="read_data">读数据</string>
+    <string name="read_write">读/写操作</string>
+    <string name="remind">开启课前振动提醒</string>
+    <string name="revision">版本支持</string>
+    <string name="select_tag">指定标签</string>
+    <string name="serial_option">Serialport option</string>
+    <string name="serialport_setting">串口设置</string>
+    <string name="set">设置</string>
+    <string name="setting">设置</string>
+    <string name="stop_bit">停止位：</string>
+    <string name="stop_read">停止读标签</string>
+    <string name="tag">标签号</string>
+    <string name="tag_count">标签个数：</string>
+    <string name="to">至</string>
+    <string name="to_uhf">进入UHF操作</string>
+    <string name="us">关于作者</string>
+    <string name="ust_option">USB操作</string>
+    <string name="wifi_option">WIFI操作</string>
+    <string name="work_area">工作区域</string>
+    <string name="work_freq">工作频率：</string>
+    <string name="write_data">写数据</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="FontStyle">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="MySpinnerStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:spinnerMode">dropdown</item>
+        <item name="android:height">40dp</item>
+    </style>
+</resources>

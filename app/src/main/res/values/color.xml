@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_epc">#0cc0c0</color>
+    <color name="color_len">#0cf0c0</color>
+    <color name="color_count">#a0a0a0</color>
+    <color name="black">#000000</color>
+    <color name="gray">#a0a0a0</color>
+</resources>

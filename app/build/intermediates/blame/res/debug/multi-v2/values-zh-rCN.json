@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/xuxu/Desktop/SuperClassTable/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
+            "map": [
+                {
+                    "source": "/Users/xuxu/Desktop/SuperClassTable/app/src/main/res/values-zh-rCN/strings.xml",
+                    "from": {
+                        "startLines": "3,2,5,4,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "100,57,208,154,259",
+                        "endColumns": "52,41,49,52,46",
+                        "endOffsets": "148,94,253,202,301"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,108,150,200,253",
+                        "endColumns": "52,41,49,52,46",
+                        "endOffsets": "103,145,195,248,295"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/xuxu/Desktop/JR-UHF1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml",
+            "map": [
+                {
+                    "source": "/Users/xuxu/Desktop/JR-UHF1/app/src/main/res/values-zh-rCN/strings.xml",
+                    "from": {
+                        "startLines": "-1,2,-1,-1,-1",
+                        "startColumns": "-1,4,-1,-1,-1",
+                        "startOffsets": "-1,57,-1,-1,-1",
+                        "endColumns": "-1,41,-1,-1,-1",
+                        "endOffsets": "-1,94,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,108,150,200,253",
+                        "endColumns": "52,41,49,52,46",
+                        "endOffsets": "103,145,195,248,295"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">超级课表</string>
+    <string name="bluetooth_option">蓝牙操作</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="serial_option">串口操作</string>
+</resources>

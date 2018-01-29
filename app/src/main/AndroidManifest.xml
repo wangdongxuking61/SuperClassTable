@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jr.uhf"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+    <uses-feature android:name="android.hardware.usb.accessory" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:name="com.jr.uhf.MyActivityManager"
+        android:allowBackup="true"
+        android:icon="@drawable/icon1"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar">
+
+        <activity
+            android:name="com.jr.uhf.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.jr.uhf.BluetoothActivity"></activity>
+        <activity android:name="com.jr.uhf.InventoryTagActivity"></activity>
+        <activity android:name="com.jr.uhf.ReadActivity"></activity>
+        <activity android:name="com.jr.uhf.WriteActivity"></activity>
+        <activity android:name="com.jr.uhf.SettingActivity"></activity>
+        <activity android:name="com.jr.uhf.SerialportUHFactivity"></activity>
+        <activity android:name="com.jr.uhf.SerialportUHFreadWriteActivity"></activity>
+        <activity android:name="com.jr.uhf.ParaSettingActivity"></activity>
+        <activity android:name="com.jr.uhf.LockActivity"></activity>
+        <activity android:name="com.jr.uhf.SerialportUHFsettingActivity"></activity>
+        <activity android:name="com.jr.uhf.SerialportSettingActivity"></activity>
+        <activity android:name="com.jr.uhf.KillActivity"></activity>
+        <activity android:name="com.jr.uhf.SerialportUHFlockKillActivity"></activity>
+        <activity android:name="com.jr.uhf.HelpAcivity"></activity>
+        <activity android:name="org.editschedule.SetActivity"></activity>
+        <activity android:name="org.androidschedule.MainActivityClass"></activity>
+        <activity android:name="org.about.AboutUsActivity"></activity>
+        <activity android:name="org.version.VersionActivity"></activity>
+        <!--<activity android:name="org.service.RemindReceiver"></activity>-->
+        <activity android:name="com.jr.uhf.UsbSettingActivity">
+            <!--
+                       <intent-filter>
+               <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"/>
+            </intent-filter>
+            -->
+            <meta-data
+                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+                android:resource="@xml/accessory_filter"></meta-data>
+
+        </activity>
+
+    </application>
+
+</manifest>

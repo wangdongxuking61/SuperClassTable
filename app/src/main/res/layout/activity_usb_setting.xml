@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            style="@style/FontStyle"
+            android:text="@string/baudrate" />
+        <Spinner
+            android:id="@+id/spinner_usb_baud"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+        
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            style="@style/FontStyle"
+            android:text="停止位" />
+        <Spinner
+            android:id="@+id/spinner_usb_stop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+        
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            style="@style/FontStyle"
+            android:text="数据位" />
+        <Spinner
+            android:id="@+id/spinner_usb_data"
+                        android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+        
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            style="@style/FontStyle"
+            android:text="奇偶校验" />
+        <Spinner
+            android:id="@+id/spinner_usb_parity"
+                        android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+        
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            style="@style/FontStyle"
+            android:text="数据流" />
+        <Spinner
+            android:id="@+id/spinner_usb_flow"
+                        android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" />
+        
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/button_usb_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            style="@style/FontStyle"
+            android:text="@string/setting" />
+
+        <Button
+            android:id="@+id/button_to_usbuhf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/FontStyle"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:clickable="false"
+            android:text="@string/to_uhf" />
+
+</LinearLayout>
